@@ -54,6 +54,7 @@ def gerar_fechamento_bolao(num_jogos):
 resultado = obter_resultado_caixa()
 
 st.title("🏦 Sistema de Bolão e Verificador Mega-Sena")
+st.title("nao arisque todo seu capital em apostas , seja ciente das perdas ")
 if resultado:
     st.success(f"✅ Conectado à Base da Caixa | Concurso: {resultado['concurso']} | Data: {resultado['data']}")
 else:
@@ -121,3 +122,4 @@ with tab2:
                     st.error(f"Erro ao processar a linha: {linha}")
     else:
         st.warning("Verificador indisponível sem conexão com a API.")
+
