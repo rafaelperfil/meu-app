@@ -97,6 +97,18 @@ with tab2:
 # Rodapé de Venda
 st.markdown("---")
 st.markdown(f"<center>© 2026 {NOME_SISTEMA} | Desenvolvido por Tecnomodal</center>", unsafe_allow_html=True)
+# --- RODAPÉ E TERMO DE RESPONSABILIDADE ---
+st.markdown("---")
+with st.expander("⚖️ Termos de Uso e Responsabilidade"):
+    st.write("""
+        Este software é uma ferramenta de auxílio baseada em cálculos probabilísticos e filtros estatísticos. 
+        O desenvolvedor não garante ganhos financeiros ou acertos em sorteios oficiais. 
+        As lotarias são jogos de azar onde a sorte é o fator determinante. 
+        Use esta ferramenta com responsabilidade e apenas para fins de entretenimento. 
+        Proibido para menores de 18 anos.
+    """)
+st.markdown(f"<center><small>© 2026 {NOME_SISTEMA} | Todos os direitos reservados</small></center>", unsafe_allow_html=True)
+
 
 
 
