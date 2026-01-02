@@ -96,6 +96,7 @@ with tab2:
 
 # Rodapé de Venda
 st.markdown("---")
-st.markdown(f"<center>© 2026 {NOME_SISTEMA} | Desenvolvido por Você</center>", unsafe_allow_html=True)
+st.markdown(f"<center>© 2026 {NOME_SISTEMA} | Desenvolvido por Tecnomodal</center>", unsafe_allow_html=True)
+
 
 
